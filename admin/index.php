@@ -45,7 +45,7 @@
 
     </head>
 
-    <body style="background:url(../img/bg.jpg); background-size: cover;">
+    <body style="background:url(../img/.jpg); background-size: cover;">
 
     <div class="row">
       <div class="col s12 m3">
@@ -53,7 +53,7 @@
               <li>
                   <div class="user-view">
                       <div class="background">
-                          <img src="../img/bg.jpg">
+                          <!--<img src="../img/.jpg">-->
                       </div>
                       <a href="#user"><img class="circle" src="https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg"></a>
                       <a href="#name"><span class="blue-text name"><?php echo ucwords($_SESSION['data']['nama_petugas']); ?></span></a>

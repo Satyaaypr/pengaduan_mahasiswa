@@ -53,9 +53,8 @@
               <li>
                   <div class="user-view">
                       
-                      <a href="#user"><img class="circle" src="https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg"></a><br>
-                    
-                      
+                      <a href="#user"><img class="circle" src="https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg"></a>
+                      <a href="#name"><span class="blue-text name"><?php echo ucwords($_SESSION['data']['nama_petugas']); ?></span></a>
                   </div>
               </li>
               <li><a href="index.php?p=dashboard"><i class="material-icons">dashboard</i>Dashboard</a></li>
